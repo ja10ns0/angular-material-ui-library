@@ -1,0 +1,11 @@
+<div class="page-container__page">
+<ntx-card-simple 
+  title="Iconos de la aplicación">
+  <div class="icons-container">
+    <div class="icon-container" *ngFor="let icon of icons">
+      <mat-icon class="icon-netex {{icon.className}} icon-big utils--grey-600"></mat-icon>
+      <label>{{icon.className}}</label>
+    </div>
+  </div>
+</ntx-card-simple>
+</div>
