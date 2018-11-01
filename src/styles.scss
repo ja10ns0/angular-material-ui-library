@@ -11,10 +11,6 @@
 @import "./styles/fonts/styles.scss";
 @import "./styles/fonts/fonts.scss";
 
-body{
-  font-family: Lato;
-}
-
 .section-title{
   color: $color-grey-700;
   font-family: LatoMedium;
@@ -30,13 +26,10 @@ body{
 }
 
 .page-container{
-  display: flex;
-  flex-direction: column;
+  padding-top: 40px;
   margin: 0 auto;
-    &__page {
-      margin: 40px 0;
-    }
 }
+
 @media (min-width: 1024px) and (max-width: 1280px) {
   .page-container{
     max-width: 768px;
